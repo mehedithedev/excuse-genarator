@@ -11,7 +11,7 @@ function App() {
   return (
     <div className='App'>
       <h1>Choose the context of excuse in which you want to use</h1>
-      <h2>Here goes your excuse: {excuse}</h2>
+      
         <div className='buttons'>
         <button onClick={()=>{fetchExcuser('family')}}>Family</button>
       
@@ -33,7 +33,9 @@ function App() {
       <button onClick={()=>{fetchExcuser('gaming')}}>gaming</button>
       
         </div>
-    
+        <hr></hr>
+        <br/>
+        <h2>Here goes your excuse: {excuse}</h2>
       
     </div>
   )
